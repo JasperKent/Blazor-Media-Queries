@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMediaQueries", "BlazorMediaQueries\BlazorMediaQueries.csproj", "{D262FA7A-A612-485A-950C-2975546BB0CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D262FA7A-A612-485A-950C-2975546BB0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D262FA7A-A612-485A-950C-2975546BB0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D262FA7A-A612-485A-950C-2975546BB0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D262FA7A-A612-485A-950C-2975546BB0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77D48C18-8291-49AD-8989-28F366CCE498}
+	EndGlobalSection
+EndGlobal

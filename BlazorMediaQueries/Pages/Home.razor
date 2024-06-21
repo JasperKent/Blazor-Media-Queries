@@ -1,0 +1,26 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<article>
+    <section>
+        <img src="people.jpg" />
+    </section>
+    <section>
+        @if (_hideLink)
+        {
+            <TermsAndConditions />
+        }
+        else{
+            <div>
+                Click <a href="/terms">here</a> for Ts & Cs.
+            </div>
+        }
+    </section>
+</article>
+
+<MediaQuery Media="(min-width: 500px)" @bind-Matches="_hideLink" />
+
+@code{
+    private bool _hideLink;
+}

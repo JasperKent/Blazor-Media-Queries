@@ -1,0 +1,17 @@
+﻿img{
+    width: 20rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 750px){
+    article {
+        flex-direction: row;
+    }
+}
+
